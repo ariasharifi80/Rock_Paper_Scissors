@@ -16,3 +16,21 @@ function getComputersChoice () {
     console.log(result);
 }
 
+function getHumanChoice () {
+    const rock = "rock";
+    const paper = "paper";
+    const scissor = "scissors";
+
+    let choice = prompt("what's your choice?");
+     if (choice === "rock"){
+        return rock
+     } else if ( choice === "paper"){
+        return paper;
+     } else if ( choice === "scissors"){
+        return scissor 
+     } else {
+        return console.error("enter a valid choice");
+     }
+     
+}
+
